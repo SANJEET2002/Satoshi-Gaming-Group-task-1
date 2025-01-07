@@ -11,7 +11,7 @@ type props = {
 const SideNav = (props: props) => {
   return (
     <div
-      className={`w-full rounded shadow h-full p-2 ${props.classname} flex flex-col`}
+      className={`w-full rounded shadow h-full p-2 ${props.classname} flex flex-col max-sm:hidden`}
     >
       <h2 className="text-2xl font-semibold py-2">Favorite Projects</h2>
       <Divider />

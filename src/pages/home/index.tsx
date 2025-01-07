@@ -20,7 +20,7 @@ const HomePage = () => {
     <div className="flex h-screen">
       <SideNav classname="sm:max-w-[300px]" allProject={allProject} />
 
-      <div className="flex-1 p-5">
+      <div className="flex-1 p-5 overflow-auto max-sm:w-screen">
         <ProjectTable />
 
         <Button
